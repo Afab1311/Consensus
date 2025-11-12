@@ -10,3 +10,4 @@ The following is a tutorial on how to use the program:
     - 3rd window: go run node.go Node3 localhost:5003
     - 4th window: go run node.go Node4 localhost:5004
 - This will execute the 4 nodes that have been hardcoded into the nodes map in the program and they will start sending requests and replies to each other
+- All log output is shown in the log.txt file in the Nodes folder
