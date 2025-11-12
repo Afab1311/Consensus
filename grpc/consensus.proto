@@ -1,0 +1,18 @@
+syntax = "proto3";
+package grpc;
+
+option go_package = "github.com/Afab1311/grpc;consensus";
+
+service ConsensusService {
+  rpc SendRequest(NodeRequest) returns (NodeResponse);
+}
+
+message NodeRequest{
+  string response = 1;
+  int64 time = 2;
+}
+
+message NodeResponse{
+  string response = 1;
+  int64 time = 2;
+}
